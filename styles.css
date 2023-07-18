@@ -13,8 +13,9 @@
   --cor-hover: #84a7a1;
   --fonte-principal: "Ubuntu", sans-serif;
   --cor-texto-principal: #14c86e;
-  --cor-texto-apoio: #f4d160;
+  --cor-texto-apoio: #00b4f0;
   --cor-gradient: linear-gradient(to right, #883840, #9b111e);
+  --cor-texto-default: black;
 }
 
 body {
@@ -31,10 +32,8 @@ header {
 }
 
 .nav__name {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: #9b111e;
-  text-decoration: underline;
-  text-decoration-style: wavy;
 }
 
 .items__header {
@@ -45,4 +44,39 @@ header {
 .items__header a {
   text-decoration: none;
   color: var(--cor-texto-principal);
+}
+
+.first__content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: var(--fonte-principal);
+  gap: 27%;
+}
+
+.text {
+  font-size: 1.3rem;
+}
+
+.first__text {
+  font-size: 2rem;
+  color: var(--cor-texto-default);
+  padding-top: 5%;
+}
+.name {
+  font-size: 4rem;
+  color: var(--cor-texto-apoio);
+}
+
+.first__text h1 {
+  font-size: 5rem;
+  color: var(--cor-texto-apoio);
+}
+
+.image__portifolio {
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 10%;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px gray;
 }
