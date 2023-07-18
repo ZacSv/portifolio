@@ -7,6 +7,7 @@
 }
 
 :root {
+  --cor-background: #fffafae8;
   --cor-principal: #0e2954;
   --cor-secundaria: #1f6e8c;
   --cor-terciaria: #2e8a99;
@@ -20,6 +21,7 @@
 
 body {
   height: 100vh;
+  background-color: var(--cor-background);
 }
 
 header {
@@ -61,7 +63,14 @@ header {
 .first__text {
   font-size: 2rem;
   color: var(--cor-texto-default);
-  padding-top: 5%;
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  gap: 5%;
 }
 .name {
   font-size: 4rem;
@@ -73,6 +82,16 @@ header {
   color: var(--cor-texto-apoio);
 }
 
+.text__about {
+  font-size: var(--fonte-principal);
+  font-size: 1.3rem;
+  width: 80%;
+  margin-left: 15%;
+  text-align: start;
+}
+.first__image {
+  width: 50%;
+}
 .image__portifolio {
   max-width: 500px;
   max-height: 500px;
