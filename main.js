@@ -1,1 +1,5 @@
-const icons = document.querySelector("icons");
+const icons = document.querySelector(".button");
+
+icons.addEventListener("mouseenter", () => {
+  icons.style.width = "6rem";
+});
