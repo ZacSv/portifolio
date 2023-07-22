@@ -111,17 +111,18 @@ header {
   float: left;
   margin-top: -23%;
   margin-left: 2%;
-  align-items: center;
-  justify-content: center;
 }
 
 .button {
   padding: 0.7rem;
   background-color: var(--cor-principal);
   border-radius: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.button li {
-  display: flex;
-  align-items: center;
+.button:hover {
+  width: 6rem;
 }

@@ -1,5 +1,8 @@
-const icons = document.querySelector(".button");
+// const icons = document.querySelector(".button");
 
-icons.addEventListener("mouseenter", () => {
-  icons.style.width = "6rem";
-});
+// icons.addEventListener("mouseenter", () => {
+//   icons.innerHTML = "home";
+// });
+// icons.addEventListener("mouseleave", () => {
+//   icons.innerHTML = "";
+// });
