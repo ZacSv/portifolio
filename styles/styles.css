@@ -16,7 +16,7 @@
   --fonte-principal: "Ubuntu", sans-serif;
   --cor-texto-principal: #14c86e;
   --cor-texto-apoio: #00b4f0;
-  --cor-gradient: linear-gradient(to right, #883840, #9b111e);
+  --cor-gradient: linear-gradient(to right, --cor-principal, blue);
   --cor-texto-default: black;
 }
 
@@ -34,11 +34,6 @@ header {
   justify-content: space-between;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-}
-
-.nav__name {
-  font-size: 1.8rem;
-  color: #9b111e;
 }
 
 .items__header {
@@ -93,12 +88,12 @@ header {
   display: flex;
   width: 50%;
   max-width: max-content;
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 .image__portifolio {
   max-width: 500px;
   max-height: 500px;
-  margin-top: 10%;
+  margin-top: 9%;
   border-radius: 12px;
   box-shadow: 1px 1px 10px gray;
 }
@@ -135,4 +130,21 @@ header {
 #nav__button {
   font-size: 1rem;
   display: none;
+}
+
+footer {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.baseline {
+  background-image: linear-gradient(to right, #43cbff, #0e2954);
+  width: 70%;
+  height: 0.2rem;
+}
+.lineheader {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
 }

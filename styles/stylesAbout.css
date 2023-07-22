@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:wght@400;700&family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+:root {
+  --cor-background-icons: #f5f5f5;
+  --cor-background: #fbe8d3e8;
+  --cor-principal: #0e2954;
+  --cor-secundaria: #1f6e8c;
+  --cor-terciaria: #2e8a99;
+  --cor-hover: #84a7a1;
+  --fonte-principal: "Ubuntu", sans-serif;
+  --cor-texto-principal: #14c86e;
+  --cor-texto-apoio: #00b4f0;
+  --cor-gradient: linear-gradient(to right, --cor-principal, blue);
+  --cor-texto-default: black;
+}
+body {
+  height: 100vh;
+  background-color: var(--cor-background);
+  font-family: var(--fonte-principal);
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-principal);
+  font-family: var(--fonte-principal);
+  padding: 2%;
+  justify-content: space-between;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first__content {
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+  width: 50%;
+  justify-content: start;
+}
+
+.first__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about {
+  font-size: 2rem;
+  color: var(--cor-texto-principal);
+}
+
+.text__about {
+  font-size: 1.5rem;
+}
+
+.botton__about {
+  filter: drop-shadow(1mm 1mm 1mm gray);
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  width: 23%;
+  border: 2px solid var(--cor-texto-principal);
+  color: var(--cor-texto-principal);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.image__skills {
+  display: grid;
+}
