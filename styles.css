@@ -114,15 +114,25 @@ header {
 }
 
 .button {
+  gap: 0.3rem;
+  align-items: center;
+  font-family: var(--fonte-principal);
   padding: 0.7rem;
   background-color: var(--cor-principal);
   border-radius: 20px;
   width: 1.5rem;
   height: 1.5rem;
   display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
+  text-decoration: none;
+  color: var(--cor-background-icons);
 }
 
 .button:hover {
-  width: 6rem;
+  width: 5.2rem;
+}
+#nav__button {
+  font-size: 1rem;
+  display: none;
 }
