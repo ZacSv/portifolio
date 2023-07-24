@@ -21,7 +21,7 @@
 }
 body {
   height: 100vh;
-  background-color: var(--cor-background);
+  background-color: var(--cor-secundaria);
   font-family: var(--fonte-principal);
 }
 header {
@@ -34,25 +34,33 @@ header {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+.button_return {
+  display: flex;
+  width: 90%;
+  margin-top: 2%;
+}
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .first__content {
-  margin-top: 10%;
-  margin-left: 5%;
+  margin-top: 7%;
   display: flex;
-  width: 50%;
-  justify-content: start;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
 }
 
 .first__text {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
+  align-items: center;
+  margin-bottom: 5%;
 }
 .about {
   font-size: 2rem;
@@ -64,18 +72,62 @@ main {
 }
 
 .botton__about {
-  filter: drop-shadow(1mm 1mm 1mm gray);
   border-radius: 15px;
   padding: 1rem;
   text-align: center;
-  width: 23%;
+  width: 17%;
+  gap: 1rem;
   border: 2px solid var(--cor-texto-principal);
   color: var(--cor-texto-principal);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 5%;
+  margin-bottom: 2%;
 }
-.image__skills {
-  display: grid;
+
+.botton__about:hover {
+  background-color: var(--cor-principal);
+}
+
+.second__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  flex-direction: column;
+}
+
+.second__title {
+  color: var(--cor-texto-principal);
+  margin-bottom: 1rem;
+}
+
+.icons__skills {
+  display: flex;
+  border-radius: 12px;
+  width: 100%;
+  height: 8rem;
+  background-color: var(--cor-principal);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.list__icons {
+  display: flex;
+  gap: 3rem;
+}
+.img__icons {
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
