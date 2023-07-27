@@ -8,11 +8,10 @@
 
 :root {
   --cor-background-icons: #f5f5f5;
-  --cor-background: #fbe8d3e8;
+  --cor-background: #84a7a1;
   --cor-principal: #0e2954;
   --cor-secundaria: #1f6e8c;
-  --cor-terciaria: #2e8a99;
-  --cor-hover: #84a7a1;
+  --cor-terciaria: #97feed;
   --fonte-principal: "Ubuntu", sans-serif;
   --cor-texto-principal: #14c86e;
   --cor-texto-apoio: #00b4f0;
@@ -21,7 +20,7 @@
 }
 body {
   height: 100vh;
-  background-color: var(--cor-secundaria);
+  background-color: #84a7a1;
   font-family: var(--fonte-principal);
 }
 header {
@@ -48,7 +47,7 @@ main {
 }
 
 .first__content {
-  margin-top: 7%;
+  margin-top: 5%;
   display: flex;
   width: 70%;
   justify-content: center;
@@ -64,29 +63,34 @@ main {
 }
 .about {
   font-size: 2rem;
-  color: var(--cor-texto-principal);
+  color: var(--cor-terciaria);
 }
 
 .text__about {
   font-size: 1.5rem;
 }
 
-.botton__about {
+.button__about {
   border-radius: 15px;
   padding: 1rem;
   text-align: center;
   width: 17%;
   gap: 1rem;
-  border: 2px solid var(--cor-texto-principal);
-  color: var(--cor-texto-principal);
+  border: 2px solid var(--cor-terciaria);
+  color: var(--cor-terciaria);
   text-decoration: none;
   display: flex;
   align-items: center;
   margin-bottom: 2%;
 }
 
-.botton__about:hover {
+.button__about:hover {
   background-color: var(--cor-principal);
+  transition: 0.5s;
+}
+.button__about:not(:hover) {
+  background-color: var(--cor-background);
+  transition: 0.5s;
 }
 
 .second__content {
@@ -98,7 +102,7 @@ main {
 }
 
 .second__title {
-  color: var(--cor-texto-principal);
+  color: var(--cor-terciaria);
   margin-bottom: 1rem;
 }
 

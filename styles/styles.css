@@ -8,11 +8,10 @@
 
 :root {
   --cor-background-icons: #f5f5f5;
-  --cor-background: #fbe8d3e8;
+  --cor-background: #84a7a1;
   --cor-principal: #0e2954;
   --cor-secundaria: #1f6e8c;
-  --cor-terciaria: #2e8a99;
-  --cor-hover: #84a7a1;
+  --cor-terciaria: #97feed;
   --fonte-principal: "Ubuntu", sans-serif;
   --cor-texto-principal: #14c86e;
   --cor-texto-apoio: #00b4f0;
@@ -41,10 +40,6 @@ header {
   display: flex;
   gap: 1rem;
 }
-.items__header a {
-  text-decoration: none;
-  color: var(--cor-texto-principal);
-}
 
 .first__content {
   display: flex;
@@ -67,14 +62,10 @@ header {
   margin-left: 5%;
   width: 50%;
 }
-.name {
-  font-size: 4rem;
-  color: var(--cor-texto-apoio);
-}
 
 .first__text h1 {
   font-size: 5rem;
-  color: var(--cor-texto-apoio);
+  color: #97feed;
 }
 
 .text__about {
@@ -126,6 +117,7 @@ header {
 
 .button:hover {
   width: 5.2rem;
+  transition: 0.3s;
 }
 #nav__button {
   font-size: 1rem;
