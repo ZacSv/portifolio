@@ -124,19 +124,13 @@ header {
   display: none;
 }
 
-footer {
-  margin-top: 3%;
-  display: flex;
-  justify-content: center;
-}
-
 .baseline {
   background-image: linear-gradient(to right, #43cbff, #0e2954);
   width: 70%;
   height: 0.2rem;
 }
 .lineheader {
-  margin-top: 1%;
+  margin-top: 2%;
   display: flex;
   justify-content: center;
 }
